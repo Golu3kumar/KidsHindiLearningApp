@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Learn &amp; Earn</string>
+    <string name="logo_desc">app logo</string>
+    <string name="logo">logo</string>
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="full_name">Full Name</string>
+    <string name="name">Learn and Earn</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="new_account">Create New Account</string>
+    <string name="already_account">Already Have an Account?</string>
+    <string name="category">category</string>
+    <string name="trophy">trophy</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="app_ads_id">ca-app-pub-6397679758010900~8829497460</string>
+    <string name="rewarded_ads_id">ca-app-pub-6397679758010900/6027982413</string>
+    <string name="fifty_fifty_ads_id">ca-app-pub-6397679758010900/6602697480</string>
+    <string name="result_banner_ads_id">ca-app-pub-6397679758010900/1942409502</string>
+    <string name="result_full_screen_ads_id">ca-app-pub-6397679758010900/3229578627</string>
+    <string name="invite_banner_ads_id">ca-app-pub-6397679758010900/6620021116</string>
+    <string name="total_attempts">Total Attempts</string>
+    <string name="correct_attempts">Correct Attempts</string>
+    <string name="wrong_attempts">Wrong Attempts</string>
+    <string name="_0">0</string>
+    <string name="total_earned_coins">TOTAL EARNED COINS</string>
+    <string name="share">Share</string>
+    <string name="restart">Restart</string>
+    <string name="quit">quit</string>
+    <string name="refer_and_earn">Refer &amp; Earn</string>
+    <string name="refer_code">REFER CODE</string>
+    <string name="refer_text">Refer friends and you both earn Rs. 10</string>
+    <string name="refer_tips">Tip : Tell his/her friends to must enter the REFERRAL CODE while Signup.</string>
+    <string name="refer">Refer</string>
+    <string name="close">close</string>
+</resources>

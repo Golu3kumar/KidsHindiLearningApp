@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1098496517328",
+    "project_id": "learn-and-earn-416f9",
+    "storage_bucket": "learn-and-earn-416f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098496517328:android:1cd2d0fb98740ee1426ad5",
+        "android_client_info": {
+          "package_name": "com.selfhelpindia.kidsquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098496517328-m93v2g6j3oche73e8j3tontmigr6upsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG4oEmva9QGeli4-7ISVrayRauCcjHX-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098496517328-m93v2g6j3oche73e8j3tontmigr6upsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

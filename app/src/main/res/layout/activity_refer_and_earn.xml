@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReferAndEarn">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/referAndEarnAnimation"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/refer_and_earn_animation" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/referAndEarnAnimation"
+        app:layout_constraintStart_toStartOf="@+id/referAndEarnAnimation"
+        app:layout_constraintTop_toBottomOf="@+id/referAndEarnAnimation">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refer_code"
+            android:textColor="@color/color_white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/referAndEarnAnimation"
+            app:layout_constraintStart_toStartOf="@+id/referAndEarnAnimation"
+            app:layout_constraintTop_toBottomOf="@+id/referAndEarnAnimation" />
+
+        <TextView
+            android:id="@+id/refer_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/refer_code"
+            android:textColor="@color/color_white"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView12"
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Touch on Code to COPY!)"
+            android:textColor="@color/color_white"
+            app:layout_constraintEnd_toEndOf="@+id/refer_code"
+            app:layout_constraintStart_toStartOf="@+id/refer_code"
+            app:layout_constraintTop_toBottomOf="@+id/refer_code" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/refer_text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/refer_tips"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Only 3 referral signup are allowed in 24 hours."
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/refer_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/have_ac_btn_bg"
+        android:text="@string/refer"
+        android:textColor="@color/color_white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <ImageView
+        android:id="@+id/close_refer_activity_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/close_bg"
+        android:contentDescription="@string/close"
+        android:drawablePadding="0dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:padding="0dp"
+        android:textColor="@color/color_purple"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/refer_btn"
+        app:layout_constraintStart_toStartOf="@+id/refer_btn"
+        app:layout_constraintTop_toBottomOf="@+id/refer_btn"
+        app:srcCompat="@drawable/ic_baseline_cancel_24" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/refer_and_earn_ad"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/invite_banner_ads_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_refer_activity_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
